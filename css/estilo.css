@@ -1,0 +1,40 @@
+body{
+    position: relative;
+}
+
+.contain{
+font-size: 20px;
+position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    
+
+}
+.contain img{
+    float: left;
+    margin-right: 5px;
+    justify-items: auto;
+
+    
+}
+
+button{
+    font-size: 15px;
+    width: 180px;
+    background-color: #02528F;
+    color: white;
+    border-radius: 10px;
+    border-spacing: 10px;
+    
+
+}
+
+button[id="izq"]{
+    text-align: left;
+
+}
+button[id="der"]{
+    text-align: right;    
+}
