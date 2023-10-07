@@ -1,7 +1,6 @@
 body{
+    
     position: relative;
-
-
 }
 
 .contain{
@@ -22,7 +21,23 @@ button{
     width: 150px;
     background-color: #09248C;
     color: white;
-    border-color:#09248C;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     
+}
+input{
+    background-color: white;
+    border-color: black;
+    color: black;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button[id="izq"]{
+    text-align: left;
+
+}
+button[id="der"]{
+    text-align: right;    
 }
